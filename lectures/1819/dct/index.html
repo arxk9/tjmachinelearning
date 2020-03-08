@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../../../stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    
     <link rel="stylesheet" type="text/css" href="../../../stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="../../../stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="../../../css/demo.css" />
@@ -32,11 +32,11 @@
              <nav class="menu menu--alonso">
                  <ul class="menu__list">
                      <li class="menu__item"><a href="../../../" class="menu__link">Home</a></li>
-                     <li class="menu__item menu__item--current"><a href="../../../schedule/1718" class="menu__link">Lectures</a></li>
+                     <li class="menu__item menu__item--current"><a href="../../../schedule/1819" class="menu__link">Lectures</a></li>
                      <li class="menu__item "><a href="../../../rankings" class="menu__link">Rankings</a></li>
                      <li class="menu__item"><a href="../../../resources" class="menu__link">Resources</a></li>
                      <li class="menu__item"><a href="../../../research" class="menu__link">Research</a></li>
-                     <li class="menu__item"><a href="../../../competitions/1718" class="menu__link">Competitions</a></li>
+                     <li class="menu__item"><a href="../../../competitions/1920" class="menu__link">Competitions</a></li>
                      <li class="menu__line"></li>
                  </ul>
              </nav>
@@ -45,8 +45,8 @@
     <section class="main-content">
         <div class="lecture">
             <h1 style="text-align:center; color:#000">Decision Trees</h1>
-            <h3 style="text-align:center; color:#000">Sylesh Suresh</h2>
-            <h3 style="text-align:center; color:#000">September 2017</h2>
+            <h3 style="text-align:center; color:#000">Joseph Rejive</h2>
+            <h3 style="text-align:center; color:#000">September 2018</h2>
             <h1 id="introduction">Introduction</h1>
             <p>Decision trees are powerful and interpretable classifiers that mirror human decisions unlike many other classifiers in supervised machine learning and are the building blocks of random forests.</p>
             <h1 id="definition">Definition</h1>
@@ -68,7 +68,7 @@
             <p>Note that this function has a maximum of 1.0, not 0.5. In practice, Gini impurity and entropy yield similar results, so it is more useful to test different pruning cut-offs rather than to evaluate trees with different impurity criteria.</p>
             <p>To decide on a split for a specific node, we will search for the feature and the threshold (e.g. “petal length <span class="math inline">\(&lt;\)</span> 2.45 cm&quot; for a flower classifier) that maximizes the information gain. We can choose the best threshold for a feature from the feature values in the training data or from the averages of every pair of feature values in the training set. Another method is to select the best threshold from the quartiles (20%, 40%, 60%, and 80&amp; values) of the feature set.</p>
             <p>Here is the pseudocode for determining the best split:</p>
-            <p><strong>Please see pdf version <a href="decision.pdf">here</a> for the pseudocode.</strong></p>
+            <p><strong>Please see pdf version <a href="./Decision_Trees.pdf">here</a> for the pseudocode.</strong></p>
             <h1 id="practice-problems">Practice Problems</h1>
             <p>Consider the following dataset:</p>
             <table>
@@ -148,7 +148,7 @@
             <li><p>What is the depth of the final decision tree?</p></li>
             </ol>
         </div>
-        <p><a href="../../../schedule/1718">&larr; Back to lectures</a></p>
+        <p><a href="../../../schedule/1819">&larr; Back to lectures</a></p>
 </section>
 <footer class="site-footer" style="background-image:linear-gradient(120deg, #272d39, #272d39);">
     <section class="main-content">
@@ -158,7 +158,9 @@
                     <a href="https://tjmachinelearning.com"><img src="../../../img/logo_alt.svg" width="150em" style="vertical-align:middle; margin-right:1em"></img></a>
                 </td>
                 <td style="border:0px; text-align: left">
-                    <p style="color:#fff">TJ Machine Learning Club<br>6560 Braddock Rd, Alexandria, VA 22312<br><code style="background-color:#000"><a href="https://github.com/nikhilsardana/tjmachinelearning">Open-source</a></code></p>
+                    <p style="color:#fff">TJ Machine Learning Club<br>6560 Braddock Rd, Alexandria, VA 22312<br><code style="background-color:#000"><a href="https://github.com/nikhilsardana/tjmachinelearning">Open-source</a></code>&nbsp;
+
+                        <code style="background-color:#000"><a href="https://github.com/tjmachinelearning">Github</a></code></p>
                 </td>
           </tr>
         </table>

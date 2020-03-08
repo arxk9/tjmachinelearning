@@ -10,6 +10,9 @@ $(document).ready(function() {
     $('#comptitle').on('click',function(){
         $('#comp').toggle();
     });
+    $('#kaggletitle').on('click',function(){
+        $('#kaggle').toggle();
+    });
     $('#svmtitle').on('click',function(){
         $('#svm').toggle();
     });
@@ -31,7 +34,10 @@ $(document).ready(function() {
     $('#cnntitle').on('click',function(){
         $('#cnn').toggle();
     });
-    $('#kaggletitle').on('click',function(){
-        $('#kaggle').toggle();
+    $('#cloudtitle').on('click',function(){
+        $('#cloud').toggle();
+    });
+    $('#dttitle').on('click',function(){
+        $('#dt').toggle();
     });
 });
